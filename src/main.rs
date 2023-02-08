@@ -195,7 +195,7 @@ impl GameState for State {
            GameMode::End => self.dead(ctx),
            GameMode::Playing => self.play(ctx),
        }
-   } 
+   }
 }
 
 fn main() -> BError {
